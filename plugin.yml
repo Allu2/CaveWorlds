@@ -1,0 +1,4 @@
+name: CaveWorld
+main: allu2.CaveWorld.CaveWorld
+version: 1.0
+load: STARTUP
