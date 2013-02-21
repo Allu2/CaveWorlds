@@ -39,7 +39,7 @@ public class GravelGenerator extends BlockPopulator {
 		int number = 0;
 
 		while (number < 10) {
-			Random randr = new Random();
+			Random randr = random;
 			int cZOff = cZ + randr.nextInt(15);
 			int cXOff = cX + randr.nextInt(15);
 			int Orepoint = randr.nextInt(150);
